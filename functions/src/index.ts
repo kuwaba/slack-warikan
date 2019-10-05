@@ -12,7 +12,7 @@ const app = new App({
 });
 app.error(console.log);
 
-app.command('/hello', async ({ ack, say }) => {
+app.command('/hallo', async ({ ack, say }) => {
   ack();
   say("Hello");
 });
